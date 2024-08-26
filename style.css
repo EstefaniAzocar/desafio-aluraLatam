@@ -212,4 +212,47 @@ footer{
     justify-content: center;
     align-items: center;
     font-size: 24px;
- }
+}
+
+
+@media (max-width: 768px) {
+    main{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        gap: 20px;
+    }
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .titulo {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .container {
+        width: 95%;
+    }
+
+    .container-texto {
+        width: 100%;
+        height: 50%;
+    }
+
+    .container-mensaje{
+        width: 90%;
+        height: 40%;
+    }
+
+    .texto {
+        height: 40%;
+        font-size: 20px;
+    }
+
+    .btn-encriptar, .btn-desencriptar, .btn-copiar {
+        width: 35%;
+        height: 60px;
+    }
+}
